@@ -1,0 +1,224 @@
+Chapter 1: INTRODUCTION TO DATA STRUCTURRE AND ALGORITHM
+
+           Algorithm
+           - Is defined computational procedure that takes some value as a set of values as input and produces some values or set of
+           values as output. In short, algorithm is a step by step process.
+           
+           
+           Data structure
+           - Is a way to store and organize data in order to facilitate access and modification.
+           
+           The data structure hve the following foundation terms.
+           . Interface
+           . Implementation
+           
+           The characteristic of a data structure
+           .Corrections
+           .Time Complexity
+           .Space Complexity
+           
+           There are cases used to compare various data structures execution.
+           .Worst Case
+           .Average Case
+           .Best Case
+           
+           Why to learn data structure and algorithm?
+           - As applications are getting complex and data rich. There are three common problems that application face nowadays.
+           
+           .Data Search
+           .Processor Speed
+           .Multiple Request
+           
+           Applications of Data Structure and Algorithm
+           .Search
+           .Sort
+           .Insert
+           .Update
+           .Delete
+           
+           Basic Termology
+           .Data
+           .Data Item
+           .Group Items
+           .Elementary Items
+           .Attribute and Entity
+           .Entity Set
+           .Field
+           .Record
+           .File
+           
+           The following are some important categories of algorithm.
+           .Search
+           .Sort
+           .Inseet
+           .UPdate
+           .Delete
+           
+           The characteristic of an algorithm
+           .Unambigous
+           .Input
+           .Output
+           .Finiteness
+           .Feasibility
+           .Independent
+           
+           How to write an algorithm
+           -Step by step solution. Each step has instruction. Like a recipe
+           
+           Example of an algorithm
+           
+           Problem: Design an algorithm to add two numbers and display result
+            
+            Step 1: Start
+            Step 2: Declare integers a, b and c
+            Step 3: Define values of a and b
+            Step 4: Add values of a and b
+            Step 5: Store output of step 4 to c
+            Step 6: Print c
+            Step 7: Stop
+            
+            Another Example:
+            
+            Step 1: Start
+            Step 2: Get values of a and b
+            Step 3: C <- a + b
+            Step 4: Display c
+            Step 5: Stop
+            
+            Algorithm Analysis
+            .A priori Analysis
+            -Theoritical analysis of an algorithm
+            
+            .A posterior analysis
+            -Emperical analysis of an algorithm
+            
+            Complexity of algorithm
+            .Time factor
+            .Space factor
+            
+            Space complexity
+            -Space comlexity of an algorithm represents the amount of memory space i sequal to the sum of the following two compounds
+            
+            .Fixed Part
+            .Variable Part
+            
+            Time Complexity
+            -Time complexity of an algorithm represents the amount of time required by the algorithm to run to  completion. 
+            Time requirements can be defined as a numerical function.
+            
+            
+            
+            
+CHAPTER 2: DATA STRUCTURE BASIC CONCEPTS
+
+
+           Data defination
+           -Defines a particular data with the following characteristic
+           
+           .Atomic
+           .Traceable
+           .Accurate
+           .Clear and concise
+           
+           Data Object
+           -Represents an object having a data
+           
+           Data Type
+           -Is a way to classify various types of data such as integer, string, etc. Which determines the values that can be used with
+            the corresponding type of data. The type of operations that can be performed in the corresponding type of data.
+            
+            There are two types of data
+            .Built-in Data Type
+            .Derived Data Type
+            
+           Built-in Dta type
+           -Data types for which a language has built-in support are known as built-in data type.
+           .Integers (A whole number, a number that is not a fraction)
+           .Boolean (True, false)
+           .Floating (Decimal number)
+           .Character and string
+           
+           Derived Data type
+           -Those data types which are implementation-independent as they can be implemented in one ir the other way are known as
+           derived data type. 
+           These data types are normally built by the combination of primary or built-in data type and associated operational
+           on them.
+           
+           .List
+           .Array
+           .Stack
+           .Queue
+           
+           Basic Operations
+           -In the data structures are prcessed by certain operation
+           
+           .Traversing
+           .Searching
+           .Deletion
+           .Sorting
+           .Merging
+           
+           
+           
+CHAPTER 3: DATA STRUCTURE AND ALGORITHM - ARRAY
+
+
+            Array
+            -Is a container which can hold a fix number of items and these items should be of the same typye.
+            
+            The following are the important terms to understand the concept of array.
+            .Element
+            -Item stored in an array
+            
+            .Index
+            -Each location of a element in an array has a numerical index.
+            
+            Basic Operations
+            .Traverse
+            .Insertion
+            .Deletion
+            .Search
+            .Update
+            
+            Array is created in python by importing. Array module to the python program.
+            
+            array import
+            
+              arrayName = array(typecode,[initializers])
+              
+            Basic Operations
+            
+            Typecode are the codes that are used to defines the type of the array will hold.
+            
+            Common typecodes:
+            
+            .b - represent signed integers of size 1 byte/td>
+            .B - Represent unsigned integers of size 1 byte
+            .C - represent character of size 1 byte
+            .i - Represent signed integers of size 2 bytes
+            .I - Represent unsigned integers of size 2 bytes
+            .f - Represent floating point of size 4 bytes
+            .d - represent point of size 8 bytes
+           
+           Insertion operation
+           -Is to insert one or more data elements into an array
+          
+          Deletion Operation
+            -Refers to removing an existing elements from the array and re-organizing an elements of an array
+            
+           Update operations
+           -You can perform a search for an array element based on its values or its index
+           
+          
+            
+       
+
+Notes:
+ 
+from array import *
+
+arrayName = array('i', [0, 1, 2, 3, 4])
+for x in arrayName:
+    print(x)
+ 
+           
